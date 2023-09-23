@@ -10,21 +10,10 @@ Step one:
 Download and run my script by running these commands:
 
 ```
-sudo -u postgres createuser $USER
-sudo -u postgres psql -c "alter user $USER with superuser" postgres
-```
-
-
-
-
-
-```
 sudo apt update && sydo apt update
 sudo apt install debmirror
 wget https://wildflower0424.github.io/mirrorbuild.sh
 sudo chmod +x mirrorbuild.sh
 ./mirrorbuild.sh
 ```
-
-
 
