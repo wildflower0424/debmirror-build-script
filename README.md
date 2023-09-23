@@ -9,6 +9,12 @@ Step one:
 
 Download and run my script by running these commands:
 
+```
+sudo -u postgres createuser $USER
+sudo -u postgres psql -c "alter user $USER with superuser" postgres
+```
+
+
 
 
 
