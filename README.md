@@ -5,12 +5,10 @@
 # there will be a lot fof re editing so please let me know if there are any issues.
 
 
-Step one:
-
 Download and run my script by running these commands:
 
 ```
-sudo apt update && sydo apt upgrade
+sudo apt update && sudo apt upgrade
             OR
 sudo nala update && sudo nala upgrade
 sudo nala install debmirror
