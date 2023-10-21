@@ -12,8 +12,8 @@ sudo apt update && sudo apt upgrade
             OR
 sudo nala update && sudo nala upgrade
 sudo nala install debmirror
-wget https://wildflower0424.github.io/mirrorbuild1.sh
-wget https://wildflower0424.github.io/mirrorbuild1.sh
+wget https://raw.githubusercontent.com/wildflower0424/debmirror-build-script/main/smirrorbuild1.sh
+wget https://raw.githubusercontent.com/wildflower0424/debmirror-build-script/main/mirrorbuild1.sh
 sudo chmod +x smirrorbuild1.sh
 ./smirrorbuild1.sh
 sudo chmod +x mirrorbuild1.sh
